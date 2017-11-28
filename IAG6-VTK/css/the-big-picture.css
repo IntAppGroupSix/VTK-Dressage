@@ -5,7 +5,7 @@
  */
 
 body {
-  background-color: #00008B;
+  background: url('../images/VTK_Full.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
