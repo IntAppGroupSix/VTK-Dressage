@@ -105,16 +105,12 @@ form{
 
 @media (max-width: 667px) {
     .picture-container {
-                height: auto;
-				width: 100%;
 				float: none;
-				clear: both;
-                position: relative;
+
 			}
     .contact-container {
-				width: 100%;
 				float: none;
-				clear: both;
+				
 			}
    
       }
