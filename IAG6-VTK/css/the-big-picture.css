@@ -4,83 +4,71 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/master/LICENSE)
  */
 
-body
-{
+body {
     background-color: #00264d;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
     min-width: 300px;
 }
 
-h1, h2, h3, h4, h5, h6, .text-heading
-{
+h1, h2, h3, h4, h5, h6, .text-heading {
   font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.tagline-upper
-{
+.tagline-upper {
   font-size: 5rem;
   font-weight: 700;
   line-height: 1;
 }
 
-.tagline-lower
-{
+.tagline-lower {
   font-size: 1.2rem;
   line-height: 1;
 }
 
-.text-expanded
-{
+.text-expanded {
   letter-spacing: 2px;
 }
 
-.text-shadow
-{
+.text-shadow {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
-.text-lg
-{
+.text-lg {
   font-size: 1.25rem;
 }
 
-.nav-bg
-{
+.nav-bg {
   background-color: rgba(255, 255, 255, 1);
 }
 
-.bg-faded
-{
+.bg-faded{
     background-color: rgba(255, 255, 255, 0.9);
 }
 
-.bg-overlay
-{
+.bg-overlay {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-hr.divider
-{
+hr.divider {
   border-color: #292b2c;
   max-width: 250px;
 }
 
-.picture-container
-{
+.picture-container{
     height: 100vh;
     width: 50%;
     float: left;
-    position: relative;
+    position: fixed;
 }
 
-.center-img
-{
+.center-img {
+    margin-top: 20%;
     display: inline-block;
     float: none;
+    
 }
 
-.contact-container
-{
+.contact-container{
     padding-right: 5%;
     width: 50%;
     float: right;
@@ -89,59 +77,43 @@ hr.divider
     text-align: center;
 }
 
-.carousel
-{
-    padding-right: 5%;
-    padding-left: 5%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    max-width: 100%;
+.carousel{
+    width: 40%;
     float: right;
-    margin:auto;
 }
 
-.home-container
-{
-    width:50%;
+.home-container{
+    width:60%;
     float: left;
 }
 
-li
-{
+li{
     float: right;
 }
 
-.about
-{
+.about{
     text-align: center;
     margin-left: 25px;
     margin-right: 25px;
 }
 
-form
-{
+form{
     color: black;
 }
 
-.round
-{
+.round{
     border-radius: 10px;
 }
 
-@media (max-width: 667px)
-{
-    .picture-container 
-    {
+@media (max-width: 667px) {
+    .container-fluid {
+        height: auto;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
         float: none;
-    }
-    .contact-container 
-    {
-        float: none;
-    }
-}
-
-.carousel-inner,.item
-{
-  width:inherit;
-  height:550px;
-}
+        position: relative;
+        }
+      }
