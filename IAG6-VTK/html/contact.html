@@ -23,14 +23,14 @@
   
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-2 fixed-bottom">
-      <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light nav-bg py-lg-2 fixed-bottom">
+      <div class="container-fluid">
         <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">VTK Dressage</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav mx-auto">
+          <ul class="navbar-nav mx-auto navbar-right">
             <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="../index.html">Home
               </a>
@@ -47,29 +47,30 @@
 
     <!-- Page Content -->
       
-    <aside>
-        <div class="contact-picture">
-            <img src="../images/Logo%202.png" height="100%" width="100%">
+    <div class="p-4 my-4 picture-container container-fluid">
+        <div class="center-img">
+        <img src="../images/Logo%202.png" height="100%" width="100%">
         </div>
-    </aside>  
+    </div> 
       
-    <section class="bg-faded p-4 my-4 contact-container">
-    <div class="text-center text-lg text-uppercase my-0">
-      <div class="tagline-lower heading">
-            <h1>Contact Us</h1>
-            <p>
-                Send us an email:    vctalcott@gmail.com
-                <br/>
-                Or feel free to use the form below.
-                <br/>
-                <br/>
-                Call or text: 404-579-3137
-            </p>
-      </div>
-    </div>
+    <div class="bg-faded px-4 pb-4 mb-4 contact-container">
+    <div class="bg-faded p-4 my-4 round">
+        <hr class="divider">
+        <h2 class="text-center text-lg text-uppercase my-0">Contact
+          <strong>VTK Dressage</strong>
+        </h2>
+        <hr class="divider">
+          <div class="text-center">
+            <h5 class="mb-0">Phone: 404-579-3137</h5>
+            <br/>
+            <h5 class="mb-0">Email: <a href="mailto:VCTalcott@gmail.com">VCTalcott@gmail.com</a></h5>
+            <br/>
+            <h6>*Call or Text Preffered</h6>
+            </div>
+        </div>
     
 	<!-- Contact form-->
-	<div class="bg-faded p-4 my-4">
+	<div class="bg-faded p-4 my-4 round container-fluid">
         <hr class="divider">
         <h2 class="text-center text-lg text-uppercase my-0">Contact Form</h2>
         <hr class="divider">
@@ -106,9 +107,8 @@
           </div>
         </form>
       </div>
-      </section>    
+    </div>    
         
-    </div> 
 	<!-- End contact form -->
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
