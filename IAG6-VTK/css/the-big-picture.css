@@ -54,12 +54,6 @@ hr.divider {
   max-width: 250px;
 }
 
-hr.divider-home
-{
-  border-color: #292b2c;
-  max-width: 400px;
-}
-
 .picture-container{
     height: 100vh;
     width: 50%;
@@ -76,10 +70,8 @@ hr.divider-home
 }
 
 .center-img-home {
-    width: 120%;
-    padding-right: 50%;
+    width: 100%;
     display: inline-block;
-    float: left;
 }
 
 .contact-container{
@@ -91,9 +83,28 @@ hr.divider-home
     text-align: center;
 }
 
-.carousel{
-    width: 45%;
+.carousel-container{
+    height: 600px;
+    width: 50%;
     float: right;
+    position: fixed;
+    margin-left: 750px;
+    margin-top: 7%;
+}
+
+  .carousel-inner img {
+      width: 100%; 
+      max-height: 600px; 
+      min-width: 200px; 
+      overflow:hidden;
+    }
+
+
+.carousel-inner{
+    height: 600px;
+    width: 100%;
+    margin-left:auto;
+    margin-right: auto;
 }
 
 .home-container{
@@ -119,15 +130,6 @@ form{
     border-radius: 10px;
 }
 
-.cimg
-{
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    margin-top: auto;
-    padding-left: 20%;
-}
-
 @media (max-width: 667px) {
     .container-fluid {
         height: auto;
@@ -139,41 +141,9 @@ form{
         float: none;
         position: relative;
         }
+    
+    .carousel-container{
+        margin-left: none;
+    }
+    
       }
-
-.carousel-inner,.item
-{
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: auto;
-  padding-bottom: aut0;
-  width:inherit;
-  height:550px;
-}
-
-.carousel
-{
-    max-width: 75%;
-    float: right;
-    margin-top: 10%;    
-}
-
-.carousel-control-prev-icon,.carousel-control-prev
-{
-    margin-left: auto;
-}
-
-.carousel-control-next-icon,.carousel-control-next
-{
-    margin-right: auto;
-}
-
-.carousel-indicators
-{
-    margin-bottom: auto;
-}
-
-.aboutp
-{
-    text-align: left;
-}
