@@ -13,6 +13,8 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <!-- Custom styles for this template -->
     <link href="css/the-big-picture.css" rel="stylesheet">
@@ -46,9 +48,10 @@
 
     <!-- Page Content -->
     <div class="p-4 my-4 container-fluid home-container">
-      <div class="center-img img-fluid cimg">
-          <img class="center-img-home" src="images/Logo%205%20Invert%20flip.png">
+      <div class="center-img-home container-fluid">
+          <img src="images/Logo 5 invert.png" width="100%">
       </div>
+        <br/>
       <div class="bg-faded p-4 my-4 about round">
         <hr class="divider">
             <h2 class="text-center text-lg text-uppercase my-0"><strong>Welcome!</strong></h2>
@@ -82,7 +85,9 @@
           </p>
       </div>
     </div>
-      <div id="demo" class="carousel p-5 container-fluid cfixed" data-ride="carousel">
+      
+      <div class="container-fluid carousel-container">
+        <div id="demo" class="carousel container-fluid" data-ride="carousel">
 
         <!-- Indicators -->
           <ul class="carousel-indicators">
@@ -98,22 +103,22 @@
           <!-- The slideshow -->
           <div class="carousel-inner">
               <div class="carousel-item active">
-                  <img class="img-fluid" src="images/IMG_0586.JPG" height="550px">
+                  <img class="img-responsive center-block round" src="images/IMG_0586.JPG">
               </div>
               <div class="carousel-item">
-                  <img class="img-fluid" src="images/IMG_0587.JPG" height="550px">
+                  <img class="img-responsive center-block round" src="images/IMG_0587.JPG">
               </div>
               <div class="carousel-item">
-                  <img class="img-fluid" src="images/IMG_0588.JPG" height="550px">
+                  <img class="img-responsive center-block round" src="images/IMG_0588.JPG">
               </div>
               <div class="carousel-item">
-                  <img class="img-fluid" src="images/IMG_1686.PNG" height="550px">
+                  <img class="img-responsive center-block round" src="images/IMG_1686.PNG">
               </div>
               <div class="carousel-item">
-                  <img class="img-fluid" src="images/IMG_2055.JPG" height="550px">
+                  <img class="img-responsive center-block round" src="images/IMG_2055.JPG">
               </div>
               <div class="carousel-item">
-                  <img class="img-fluid" src="images/IMG_2286.JPG" height="550px">
+                  <img class="img-responsive center-block round" src="images/IMG_2286.JPG">
               </div>
           </div>
   
@@ -125,11 +130,10 @@
               <span class="carousel-control-next-icon"></span>
           </a>
         </div>
-      
+      </div>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
   </body>
 
 </html>
