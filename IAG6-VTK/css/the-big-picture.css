@@ -88,8 +88,9 @@ hr.divider {
     width: 50%;
     float: right;
     position: fixed;
-    margin-left: 750px;
-    margin-top: 7%;
+    margin-left: 50%;
+    margin-right: 5%;
+    margin-top: 5%;
 }
 
   .carousel-inner img {
